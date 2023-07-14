@@ -1,0 +1,78 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(#44A08D,#e6d6ec);
+  color: #212121;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.main{
+  margin-top: 2rem;
+  text-align: center;
+}
+.main h1{
+  font-size: 1.7rem;
+  color: #beffff;
+  text-decoration: underline;
+}
+.main .inpt{
+  margin: 1rem;
+  text-align: center;
+}
+.main .inpt input{
+  margin-left: 1rem;
+  padding: .4rem;
+  width: 12rem;
+  border: none;
+  outline: none;
+  border: 1px solid #086a6c;
+  background: none;
+  border-radius: .5rem;
+}
+.main .inpt input::placeholder{
+  color:rgb(225, 224, 224)
+}
+.main .inpt button{
+  width: 5rem;
+  height: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  border: none;
+  margin-left: 1rem;
+  transition: .3s;
+  font-size: 1.1rem;
+}
+.main .inpt button:hover {
+  background: #00f74a;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  transform: translateY(-4px);
+  color: white;
+}
+table{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border-radius: 1rem;
+}
+table th{
+  padding: 2.5rem;
+}
+tbody button{
+  margin-left: .5rem;
+  color: white;
+  border: none;
+  width: 4rem;
+  height: 2rem;
+}
+
+.btn1{
+  background-color: #43a047;
+}
+.btn2{
+  background-color: #f71f1f;
+}
